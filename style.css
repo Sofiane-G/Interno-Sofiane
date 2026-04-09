@@ -4,11 +4,28 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 85px;
+    font-weight: 400;
+}
+
+
+.titre-s2{
+font-size: 50px;
+font-weight: 400;
+}
+
 .section-hero{
-    background-image:url(asset/Banner\ fond.jpg);
+    background-image:url(asset/Banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    border-bottom-left-radius: 150px;
 }
 
 /* FlexBox */
@@ -33,6 +50,9 @@
     justify-content: center;
 }
 
+.justify-left{
+    justify-content: left;
+}
 .push-bot{
     margin-bottom: 10px;
 }
@@ -44,6 +64,14 @@ a{
 
 .black{
     color: black;
+}
+
+.white{
+    color: white;
+}
+
+.txt-center{
+    text-align: center;
 }
 
 /* margin et padding */
@@ -92,6 +120,14 @@ a{
     padding-bottom: 32px;
 }
 
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
+}
+
 .pt-128{
     padding-top: 128px;
 }
@@ -112,6 +148,10 @@ a{
 
 .w-30{
     width: 30%;
+}
+
+.w-25{
+    width: 25%;
 }
 
 /*Container ( pour s'adapter a tout type d'ecran )*/
@@ -137,8 +177,8 @@ a{
 /* bouton */
 
 .btn{
-    background-color: #353434;
-    border-radius: 4px;
+    background-color:#292F36;
+    border-radius: 18px;
     padding: 10px 40px;
     margin-top: 10px;
     display: inline-block;
@@ -154,4 +194,19 @@ a{
 
 .nav-d{
     text-align: right;
+}
+
+/*couleur*/
+
+.fond-beige{
+    background-color: #F4F0EC;
+}
+
+.block{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.fond-black{
+    background-color:#292F36;
 }
